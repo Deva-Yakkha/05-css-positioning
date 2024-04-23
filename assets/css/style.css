@@ -31,7 +31,7 @@ header {
     height: 100px;
 }
 
-/* Square 1 and 2 */
+/* Square 1 and 2 container slector*/
 .container {
     width: 600px;
     height: 600px;
@@ -48,12 +48,12 @@ header {
 /* Img id box 2 in Square 1 */
 #relative-box-2 {
     position: relative;
-    margin: auto;
+    left: 200px;
 }
 
 /* Img id box 2 in Square 2 l*/
 #absolute-box-2 {
 position: absolute;
 top: 0%;
-margin: 0% 700px;
+left: 640px;
 }
